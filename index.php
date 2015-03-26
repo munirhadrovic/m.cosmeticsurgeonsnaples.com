@@ -4,7 +4,7 @@
 		
 		<link rel="stylesheet" href="css/jquery.mobile-1.4.5.css">
 		<script src="js/jquery-1.11.2.js"></script>
-			<title>Cosmetic Surgery of Naples - Drs. Master & Crane</title>
+		<title>Cosmetic Surgery of Naples - Drs. Master & Crane</title>
 		<script>
 		    $(document).on("mobileinit", function(evt) {
 		      // Change some settings
@@ -97,8 +97,7 @@
 			        }
 		      	});
 
-		    });
-					
+		    });			
     	</script>
     	
 	</head>
@@ -106,21 +105,19 @@
 		
 		<?php 
 			include 'settings.php';
-			
-			
 		?>
+
 		<div id="header-image" data-role="header" data-theme="<?php echo $theme ?>" data-position="fixed">
 		    <h1><img src="img/logo.png" alt="LOGO"></h1>
 		</div>
 		<div data-role="footer" data-theme="<?php echo $theme ?>" data-position="fixed">
-		    <h1><a href="http://www.cosmeticsurgeonsnaples.com/" rel="external">Desktop Site</a></h1>
+			<h1>Powered by <a href="http://mobilegrows.com/">MobileGrows</a> | <a href="http://www.cosmeticsurgeonsnaples.com/" rel="external">Desktop Site</a></h1>		
 		</div>
 		<!-- page 1 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
 		<div data-role="page" id="page1" data-theme="<?php echo $theme ?>">
 		  
-
 		  	<div data-role="main" class="ui-content" data-theme="<?php echo $theme ?>">
-		  		
+
 				<fieldset class="ui-grid-a" data-theme="<?php echo $theme ?>">
 					<!-- OVDJE SE UPISUJE BROJ TELEFONA KOJI TREBA POZVATI  -->
 					<div class="ui-block-a"><a class="ui-btn callfind buttons-radius" href="tel:<?php echo $telephone ?>">Call US</a></div>
